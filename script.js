@@ -23,5 +23,9 @@
  */
 
 var mergeTwoLists = function(list1, list2) {
-    
+    console.log(list1);
+    var newArray = list1.concat(list2);
+    newArray.sort();
 };
+
+mergeTwoLists([1,2,4], [1,3,4]);
